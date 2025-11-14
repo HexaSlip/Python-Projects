@@ -1,4 +1,4 @@
-### Previous Caesar Cipher Code
+### Caesar Cipher Code
 
 def caesar(message, offset):
     
@@ -12,7 +12,7 @@ def caesar(message, offset):
             is_upper = char.isupper()
             char_lower = char.lower()
 
-            #Find the position (index) of the letter
+            # Find the position (index) of the letter
             index = alphabet.find(char_lower) 
 
             # 2. Apply the shift with modulus (wrap-around) 
